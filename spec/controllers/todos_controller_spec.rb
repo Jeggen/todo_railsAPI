@@ -9,11 +9,11 @@ RSpec.describe TodosController, type: :controller do
   end
 end
 
-RSpec.describe TodosController, type: :controller do
-  describe "POST create" do
-    it "gets index" do
-      post :create
-      expect(response).to render_template("index")
-    end
-  end
-end
+# RSpec.describe TodosController, type: :controller do
+#   describe "POST create" do
+#     it "gets index" do
+#       post :create
+#       expect(response).to render_template("index")
+#     end
+#   end
+# end
